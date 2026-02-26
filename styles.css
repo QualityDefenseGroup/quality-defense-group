@@ -56,4 +56,22 @@ footer { text-align: center; padding: 2rem 0; font-size: .9rem; color: var(--gra
 @media (max-width: 600px) {
   nav ul { flex-direction: column; gap: .5rem; }
   .hero-inner h1 { font-size: 1.8rem; }
+
 }
+
+
+
+
+.cleaning-hero { background: var(--blue); }
+.services { padding: 4rem 0; }
+.alt-bg { background: var(--light); }
+.service-grid { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 2rem; }
+.service-card { background: #fff; padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow); border-left: 4px solid var(--orange); }
+.service-card.small { border-left-color: var(--blue); }
+.service-card.featured { border-left-color: var(--orange); background: #fff9f0; }
+.service-desc { color: var(--gray); margin: 1rem 0; }
+.price { font-size: 1.5rem; font-weight: 700; color: var(--blue); }
+.tax { font-size: 0.9rem; font-weight: 400; color: var(--gray); }
+.section-note { text-align: center; color: var(--gray); margin-top: -1rem; }
+.cta-section { background: var(--blue); color: #fff; padding: 4rem 0; text-align: center; }
+.cta-section p { margin: 1rem 0 2rem; }
