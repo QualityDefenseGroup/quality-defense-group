@@ -13,10 +13,22 @@
 body { font-family: 'Inter', system-ui, sans-serif; color: var(--black); line-height: 1.6; }
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
-
+header {
+  background: var(--white);
+  border-bottom: 3px solid var(--red);
+}
 .container { width: 90%; max-width: var(--max-width); margin: auto; }
 .nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem 0; }
-.logo { font-weight: 700; font-size: 1.2rem; color: var(--black); }
+.logo { 
+  font-weight: 700; 
+  font-size: 1.2rem; 
+  color: var(--black); 
+}
+.logo img {
+  height: 60px;
+  width: auto;
+  display: block;
+}
 nav ul { list-style: none; display: flex; gap: 1.5rem; }
 nav a:hover { color: var(--red); }
 
@@ -87,7 +99,7 @@ footer {
 .services { padding: 4rem 0; }
 .alt-bg { background: var(--light-gray); }
 .service-grid { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 2rem; }
-.service-card { background: #fff; padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow); border-left: 4px solid var(--orange); }
+.service-card { background: #fff; padding: 2rem; border-radius: var(--radius); box-shadow: var(--shadow); border-left: 4px solid var(--red); }
 .service-card.small { border-left-color: var(--black); }
 .service-card.featured { border-left-color: var(--red); background: #fff9f0; }
 .service-desc { color: var(--gray); margin: 1rem 0; }
@@ -96,4 +108,5 @@ footer {
 .section-note { text-align: center; color: var(--gray); margin-top: -1rem; }
 .cta-section { background: var(--black); color: #fff; padding: 4rem 0; text-align: center; }
 .cta-section p { margin: 1rem 0 2rem; }
+
 
